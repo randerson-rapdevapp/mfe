@@ -1,6 +1,8 @@
 name: deploy-container-new
 
 on:
+  workflow_dispatch:
+
   push:
     branches:
       - master
